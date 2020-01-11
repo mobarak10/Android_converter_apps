@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Temp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Temp"
+        android:padding="20dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/temp_edt_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/temp_spnr_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp" />
+
+    <Spinner
+        android:id="@+id/temp_spnr_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp" />
+
+
+    <Button
+        android:id="@+id/temp_btn_convert"
+        android:text="@string/convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
